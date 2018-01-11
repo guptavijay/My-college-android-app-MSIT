@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#A9B7C0"
+    android:layout_height="match_parent"
+    tools:context="com.example.shalini.msit.Onethree">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/t11"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#015249"
+        android:gravity="center"
+        android:text="STUDENT SOCIETIES"
+        android:textColor="#EFEFEF"
+
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/b11"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="170dp"
+        android:background="#52658F"
+        android:text="IEEE"
+        android:textColor="#EFEFEF"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/b22"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="240dp"
+        android:background="#52658F"
+        android:text="PRAKRITI"
+        android:textColor="#EFEFEF"
+        android:textSize="20dp" />
+</RelativeLayout>
+</ScrollView>
+

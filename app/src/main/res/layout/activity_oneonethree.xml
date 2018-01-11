@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shalini.msit.Oneonethree">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/i11"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:background="@drawable/enva" />
+
+    <TextView
+        android:id="@+id/t11"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="210dp"
+        android:gravity="center"
+        android:text="ENVA"
+        android:background="#015249"
+        android:textColor="#EAE3EA"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/t22"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="270dp"
+        android:text="(organised by PRAKRITI MSIT)"
+        android:gravity="center"
+        android:textColor="#EAE3EA"
+        android:background="#015249"
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:textColor="#000000"
+
+
+        android:textSize="20dp" />
+</RelativeLayout>
+</ScrollView>

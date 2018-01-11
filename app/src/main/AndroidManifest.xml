@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shalini.msit">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/x"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/x"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Second" />
+        <activity android:name=".Third" />
+        <activity android:name=".Oneone" />
+        <activity android:name=".Onetwo" />
+        <activity android:name=".Onefirst" />
+        <activity android:name=".Oneonetwo" />
+        <activity android:name=".Oneonethree" />
+        <activity android:name=".Oneonefour" />
+        <activity android:name=".Onethree" />
+        <activity android:name=".Fourth" />
+        <activity android:name=".Tenth" />
+        <activity android:name=".Eight" />
+        <activity android:name=".Fifth" />
+        <activity android:name=".Sixth" />
+        <activity android:name=".Ninth" />
+        <activity android:name=".Onethreeone" />
+        <activity android:name=".Onethreetwo"></activity>
+    </application>
+
+</manifest>

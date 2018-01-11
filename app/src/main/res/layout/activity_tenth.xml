@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#A9B7C0"
+    android:layout_height="match_parent"
+    tools:context="com.example.shalini.msit.Tenth">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv11"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+
+        app:srcCompat="@drawable/cool"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/t11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:textSize="20dp"
+        />
+     <TextView
+         android:id="@+id/t22"
+         android:layout_width="match_parent"
+         android:layout_height="30dp"
+         android:layout_marginTop="500dp"
+         android:textSize="20dp"
+         android:textColor="#000000"
+         android:textStyle="bold"
+
+
+
+         />
+
+    <TextView
+        android:id="@+id/t33"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="550dp"
+        android:text="Call/Whatsapp:- 8130074495"
+        android:textColor="#000000"
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="590dp"
+        android:text="Facebook:-"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/b11"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="590dp"
+
+
+        android:background="@drawable/fb" />
+
+    <TextView
+        android:id="@+id/t55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"
+        android:text="Instagram:-"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/b22"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="650dp"
+
+
+        android:background="@drawable/insta" />
+
+    <TextView
+        android:id="@+id/t66"
+        android:layout_width="match_parent"
+android:layout_marginTop="680dp"
+        android:layout_height="30dp" />
+
+</RelativeLayout>
+</ScrollView>

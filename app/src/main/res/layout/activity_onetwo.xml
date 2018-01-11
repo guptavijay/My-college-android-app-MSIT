@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="#465C8B"
+    tools:context="com.example.shalini.msit.Onetwo">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <TextView
+        android:id="@+id/t11"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="Maharaja Surajmal Institute"
+        android:textColor="#ff33b5e5"
+
+
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/t22"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#000000"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Of Technology"
+        android:textColor="#ff33b5e5"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/t33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="Affiliated to GGSIPU| NAAC Accredited 'A' Grade | ISO 9001:2008 Certified | Approved by AICTE"
+        android:textColor="#ff33b5e5"
+
+
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/i11"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/college" />
+
+    <TextView
+        android:id="@+id/t44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:textSize="20dp"
+
+        android:textColor="#CAE4DB" />
+
+    <TextView
+        android:id="@+id/t55"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="1220dp"
+        android:text="VISION"
+        android:textColor="#E14658"
+
+
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/t66"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1270dp"
+        android:text="To become one of the most admired centers of academic excellence in the field of Engineering and Technology for all-round professional development of students to enable them to meet the growing technological needs of the country."
+        android:textColor="#CAE4DB"
+
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t77"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="1450dp"
+        android:text="MISSION"
+        android:textColor="#E14658"
+
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/t88"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1500dp"
+        android:text="Developing new paradigm in imparting education in the fields of Engineering and Technology and to imbibe national values leading to student's empowerment, with a view to prepare them to meet the national and global challenges."
+        android:textColor="#CAE4DB"
+
+
+        android:textSize="20dp" />
+</RelativeLayout>
+
+
+</ScrollView>

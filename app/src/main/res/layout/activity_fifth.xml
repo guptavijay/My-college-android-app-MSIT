@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8E8E8"
+    tools:context="com.example.shalini.msit.Fifth">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/t11"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#30415D"
+        android:gravity="center"
+        android:text="CONTACTS"
+        android:textColor="#EAE3EA"
+
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/t22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Address:"
+        android:textColor="#000000"
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t33"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="90dp"
+        android:text="C-4 Janak Puri, New Delhi-110058"
+        android:textColor="#155765"
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:text="Phones "
+        android:textColor="#000000"
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t55"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="160dp"
+        android:text="25528117, 25552667"
+        android:textColor="#155765"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t66"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Email "
+        android:textColor="#000000"
+
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t77"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="230dp"
+        android:text="director@msit.in"
+        android:textColor="#155765"
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t88"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="290dp"
+        android:background="#30415D"
+        android:gravity="center"
+        android:text="CONNECTIVITY "
+        android:textColor="#EAE3EA"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/t99"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="Nearest Airport:"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t100"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="380dp"
+        android:text=" Indira Gandhi International Airport, Delhi"
+        android:textColor="#155765"
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t101"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:text="Distance from Airport:"
+        android:textColor="#000000"
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t102"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="440dp"
+        android:text="10.2km"
+        android:textColor="#155765"
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t103"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="490dp"
+        android:text="Nearest Railway Station : "
+        android:textColor="#000000"
+
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t104"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="520dp"
+        android:text="New Delhi Railway Station"
+        android:textColor="#155765"
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t105"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:text="Distance from Railway Station :"
+        android:textColor="#000000"
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t106"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="580dp"
+        android:text="18km"
+        android:textColor="#155765"
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t107"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="630dp"
+        android:text="Nearest Metro Station :"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t108"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="660dp"
+        android:text="Janakpuri East"
+        android:textColor="#155765"
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t109"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="690dp"
+        android:text="Distance from Metro Station:"
+        android:textColor="#000000"
+
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t110"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="720dp"
+        android:text="2km"
+        android:textColor="#155765"
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/t111"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="750dp"
+        android:text="" />
+</RelativeLayout>
+</ScrollView>

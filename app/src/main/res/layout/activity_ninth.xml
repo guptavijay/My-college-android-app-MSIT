@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D5D5D5"
+
+    tools:context="com.example.shalini.msit.Ninth">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/t11"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="VIRTUAL TOUR"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp"
+
+        android:textColor="#EFEFEF"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034" />
+
+    <ImageView
+        android:id="@+id/iv11"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/first" />
+
+    <ImageView
+        android:id="@+id/iv22"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/second" />
+
+    <ImageView
+        android:id="@+id/iv33"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="770dp"
+        android:background="@drawable/third" />
+
+    <ImageView
+        android:id="@+id/iv44"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="1100dp"
+        android:background="@drawable/fourth" />
+
+    <ImageView
+        android:id="@+id/iv55"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="1430dp"
+        android:background="@drawable/fifth" />
+
+    <ImageView
+        android:id="@+id/iv66"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="1760dp"
+        android:background="@drawable/sixth" />
+
+    <ImageView
+        android:id="@+id/iv77"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="2090dp"
+        android:background="@drawable/seventh" />
+
+    <ImageView
+        android:id="@+id/iv88"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="2420dp"
+        android:background="@drawable/eight" />
+</RelativeLayout>
+</ScrollView>
